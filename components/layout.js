@@ -4,7 +4,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '#Анастасия_Маникюр_Рязань'
+let name = '#Анастасия'
+let name2= '#Рязань_Маникюр'
 export const siteTitle = 'Маникюр_Рязань62'
 
 export default function Layout({ children, home }) {
@@ -30,7 +31,8 @@ export default function Layout({ children, home }) {
               width={308}
               alt={name}
             />
-            <h2 className={utilStyles.headingCol}>{name}</h2>
+            <h1 className={utilStyles.headingCol}>{name}</h1>
+            <h2 className={utilStyles.headingCol}>{name2}</h2>
           </>
         ) : (
           <>
