@@ -1,0 +1,126 @@
+.heading2Xl {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+
+
+  }
+  
+  .headingXl {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+  
+  .headingLg {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+  }
+  
+  .headingMd {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .borderCircle {
+    border-radius: 9999px;
+ 
+  }
+  
+   
+  
+  .padding1px {
+    padding-top: 1px;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listItem {
+    margin: 0 0 1.25rem;
+  }
+  
+  .lightText {
+    color: #14660a;
+  }
+
+
+  .headingCol{
+
+    color: #fdd5ff;
+    text-shadow: 0 0 5px #22ffcc, 0 0 10px #88e4ff, 0 0 15px #ff6f83, 0 0 20px #dc8584, 0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+  }
+
+  .headingMYR{
+    margin: 0 0 1.25rem;
+    color: #fffff8;
+    font-family: 'Fredoka One', "Harlow Solid Italic";
+    text-align: center;
+    
+  }
+
+  .headingFOT{
+    margin-top:20px;
+    height: 50px;
+    width: 100%;
+    
+  }
+
+.headinFotosl{
+  margin-top:20px;
+  text-align: center;
+  padding: 5px;
+
+}
+
+
+.blockrow{
+ 
+  margin: 1em auto;
+  padding: .5em;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.blockcolumn{
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 2em;
+}
+
+  .headinGimgforce1 .headinGimgforce2 .headinGimgforce3 
+  .headinGimgforce4 .headinGimgforce5 .headinGimgforce6
+  .headinGimgforce7 .headinGimgforce8 .headinGimgforce9
+  .headinGimgforce10 .headinGimgforce11 
+  {
+    
+  
+  
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+  }
+
+  .Socilalink{
+  text-align: center;
+  padding: 5px 10px;
+  
+  
+  }
+  
+
+  
