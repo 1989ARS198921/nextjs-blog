@@ -4,8 +4,13 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-let name = '#Анастасия'
-let name2= '#Рязань_Маникюр'
+import {
+  Container,
+} from 'reactstrap'
+
+
+let name = '#Мастер'
+let name2= '#Рязань Маникюр'
 export const siteTitle = 'Маникюр_Рязань62'
 
 export default function Layout({ children, home }) {
@@ -13,6 +18,7 @@ export default function Layout({ children, home }) {
     
     <div className={styles.container}>
       <div className={styles.fron}>
+        <Container>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="keywords" content="маникюр Рязань, классический маникюр Рязань,
@@ -20,15 +26,16 @@ export default function Layout({ children, home }) {
         <meta name="description" content="Классический и аппаратный маникюр в городе Рязань недорого." />
         <meta charset="utf-8"/>
       </Head>
+      </Container>
       <header className={styles.header}>
         {home ? (
           <>
             <Image
               priority
-              src="/images/nas_ava.jpg"
+              src="/images/nail_ava.png"
               className={utilStyles.borderCircle}
-              height={408}
-              width={308}
+              height={180}
+              width={160}
               alt={name}
             />
             <h1 className={utilStyles.headingCol}>{name}</h1>
@@ -40,7 +47,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/nas_ava.jpg"
+                  src="/public/nail.svg"
                   className={utilStyles.borderCircle}
                   height={408}
                   width={308}
@@ -60,18 +67,37 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       
       <div className={utilStyles.Socilalink}>
-        
-      <Image
-        priority
-        src="/images/ARH_25.png"
-        alt="socila"
-        width={150}
-        height={150}
-      />
       
+      
+      <footer >
+        
+    
+        <a
+      href="https://www.instagram.com/nasti_stroilova/?r=nametag"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {' '}
+      <img src="/icon.svg" alt="logoInsta" className="sml-logo" />
+    </a>
+   
+ 
+  
+     <a
+      href="https://api.whatsapp.com/message/D6RISHEFURACG1"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {' '}
+      <img src="/whatsapp.svg" alt="logoWhats" className="sml-logo" />
+    </a>
+    
+  </footer>
       </div>
     </div>
+ 
   </div>
+  
 
   )
 }

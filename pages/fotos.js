@@ -14,103 +14,76 @@ export default function Foto () {
         </div> 
         
         <div className={utilStyles.headinFotosl}>
-
-
-
-
 <div className ={utilStyles.blockrow}>
 <div className ={utilStyles.blockcolumn}>
   
         <div className={utilStyles.headinGimgforce1}>
         <Image
-        src="/images/photo_1.jpg"
+        src="/images/photo_12.jpg"
         alt="Picture of the author"
-        width={400}
-        height={400}
+        width={350}
+        height={350}
         />
          </div>
 
          <div className={utilStyles.headinGimgforce2}>
         <Image
-        src="/images/photo_4.jpg"
+        src="/images/photo_13.jpg"
         alt="Picture of the author"
-        width={400}
-        height={400}
+        width={350}
+        height={350}
       />
       </div>
       <div className={utilStyles.headinGimgforce3}>
       
         <Image
-        src="/images/photo_3.jpg"
+        src="/images/photo_14.jpg"
         alt="Picture of the author"
-        width={400}
-        height={400}
+        width={350}
+        height={350}
       />
      
      </div>
 
      <div className={utilStyles.headinGimgforce4}>
       <Image
-        src="/images/photo_7.jpg"
+        src="/images/photo_15.jpg"
         alt="Picture of the author"
-        width={400}
-        height={400}
+        width={300}
+        height={450}
       />
       </div>
 
       <div className={utilStyles.headinGimgforce5}>
       <Image
-        src="/images/photo_8.jpg"
+        src="/images/photo_16.jpg"
         alt="Picture of the author"
-        width={400}
-        height={400}
-      />
-      </div>
-
-      
-
-
-      
-
-      <div className={utilStyles.headinGimgforce6}>
-        <Image
-        src="/images/photo_2.jpg"
-        alt="Picture of the author"
-        width={400}
-        height={400}
+        width={350}
+        height={350}
       />
       </div>
 
       <div className={utilStyles.headinGimgforce7}>
       <Image
-        src="/images/photo_5.jpg"
+        src="/images/photo_18.jpg"
         alt="Picture of the author"
-        width={400}
-        height={400}
+        width={350}
+        height={350}
       />  
       </div>
       <div className={utilStyles.headinGimgforce8}>
        <Image
-        src="/images/photo_6.jpg"
+        src="/images/photo_1.jpg"
         alt="Picture of the author"
         width={400}
         height={400}
       />
       </div>
 
-      <div className={utilStyles.headinGimgforce9}>
-        <Image
-        src="/images/photo_9.jpg"
-        alt="Picture of the author"
-        width={400}
-        height={400}
-      />
-      </div>
-
-
+      
       <div className={utilStyles.headinGimgforce10}>
       <Image
-        src="/images/photo_10.jpg"
+        src="/images/photo_3.jpg"
         alt="Picture of the author"
         width={400}
         height={400}
@@ -119,7 +92,16 @@ export default function Foto () {
 
       <div className={utilStyles.headinGimgforce11}>
       <Image
-        src="/images/photo_11.jpg"
+        src="/images/photo_4.jpg"
+        alt="Picture of the author"
+        width={400}
+        height={370}
+      />
+      </div>
+     
+      <div className={utilStyles.headinGimgforce11}>
+      <Image
+        src="/images/photo_6.jpg"
         alt="Picture of the author"
         width={400}
         height={400}
