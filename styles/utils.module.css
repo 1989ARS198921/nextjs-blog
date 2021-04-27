@@ -55,8 +55,8 @@
 
   .headingCol{
 
-    color: #fdd5ff;
-    text-shadow: 0 0 5px #22ffcc, 0 0 10px #88e4ff, 0 0 15px #ff6f83, 0 0 20px #dc8584, 0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;
+    color: #ffffff;
+    text-shadow: 0 0 5px #22c59f, 0 0 10px #23b0db, 0 0 15px #ff6f83, 0 0 20px #dc8584, 0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;
     font-size: 1.5rem;
     line-height: 1.2;
     font-weight: 800;
@@ -69,7 +69,8 @@
     color: #fffff8;
     font-family: 'Fredoka One', "Harlow Solid Italic";
     text-align: center;
-    
+    border-radius: .5 px;
+    transition: 0.2s;
   }
 
   .headingFOT{
