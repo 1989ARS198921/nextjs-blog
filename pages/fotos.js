@@ -10,7 +10,7 @@ export default function Foto () {
     return (
         <div className={utilStyles.headingFOT}>
       <div className={utilStyles.headingFOT}>
-        <div className={utilStyles.headingMYR}><Link href={"/"}>bye bye!!</Link></div>
+        <div className={utilStyles.headingMYR}><Link href={"/"}>!!bye bye!!</Link></div>
         </div> 
         
         <div className={utilStyles.headinFotosl}>

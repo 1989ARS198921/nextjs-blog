@@ -46,7 +46,7 @@ export  default function FContact() {
     <div className={styles.container}>
       
       < form className={styles.main} >
-      <Link href={"/"}>bye bye!!</Link>
+      <Link href={"/"}>!!bye bye!!</Link>
         < formGroup className={styles.inputGroup} >
           < label htmlFor='name' ><div className={styles.headingMYRR}>Ваше имя</div></label>
           < input type='text' onChange={(e)=>{setName(e.target.value)}} name='name' className={styles.inputField} />
