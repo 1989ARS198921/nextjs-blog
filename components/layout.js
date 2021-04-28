@@ -21,6 +21,8 @@ export default function Layout({ children, home }) {
         <Container>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+        <meta name="yandex-verification" content="22a2e1fc1a79acef" />
         <meta name="keywords" content="маникюр Рязань, классический маникюр Рязань,
         аппаратный маникюр Рязань , ногти, ногточки, сделать ногти недорого" />
         <meta name="description" content="Классический и аппаратный маникюр в городе Рязань недорого." />
