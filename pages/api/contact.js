@@ -7,14 +7,14 @@ export default function (req, res) {
     host: "smtp.gmail.com",
        auth: {
             user: 'firstarscomp@gmail.com',
-            pas: process.env.password,
+            pass: 'German198921083201',
          },
     secure: true,
   });
   
   const mailData = {
-      from:'stroilov98@yandex.ru',
-      to:'firstarscomp@gmail.com',
+      from:'firstarscomp@gmail.com',
+      to:'nas90tia@mail.ru',
       subject: `Message From ${req.body.name}`,
       text: req.body.message + " | Sent from: " + req.body.email,
       html: `<div>${req.body.message}</div>

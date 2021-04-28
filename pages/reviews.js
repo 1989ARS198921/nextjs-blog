@@ -48,17 +48,17 @@ export  default function FContact() {
       < form className={styles.main} >
       <Link href={"/"}>bye bye!!</Link>
         < formGroup className={styles.inputGroup} >
-          < label htmlFor='name' ><p>Ваше имя</p></label>
+          < label htmlFor='name' ><div className={styles.headingMYRR}>Ваше имя</div></label>
           < input type='text' onChange={(e)=>{setName(e.target.value)}} name='name' className={styles.inputField} />
         </formGroup>
 
         < formGroup className={styles.inputGroup} >
-          < label htmlFor='email'><p>Электронная почта или номер телефона</p></label>
+          < label htmlFor='email'><div className={styles.headingMYRR}>Электронная почта или номер телефона</div></label>
           < input type='email' onChange={(e)=>{setEmail(e.target.value)}} name='email' className={styles.inputField} />
         </formGroup>
 
         < formGroup className={styles.inputGroup} >
-          < label htmlFor='message'><p>Сообщение , возможно пожелание</p></label>
+          < label htmlFor='message'><div className={styles.headingMYRR}>Сообщение , возможно пожелание</div></label>
           < input type='text' onChange={(e)=>{setMessage(e.target.value)}} name='message' className={styles.inputField} />
         </formGroup>
 
