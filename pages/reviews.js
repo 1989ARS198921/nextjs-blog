@@ -15,6 +15,7 @@ export  default function FContact() {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log('Sending')
+    alert("Спасибо за Ваш отзыв!")
 
     let data = {
  name,
@@ -41,6 +42,8 @@ export  default function FContact() {
     })
   }
 
+  
+
   return (
     
     <div className={styles.container}>
@@ -59,7 +62,7 @@ export  default function FContact() {
 
         < formGroup className={styles.inputGroup} >
           < label htmlFor='message'><div className={styles.headingMYRR}>Сообщение , возможно пожелание</div></label>
-          < input type='text' onChange={(e)=>{setMessage(e.target.value)}} name='message' className={styles.inputField} />
+          < input type='text' onChange={(e)=>{setMessage(e.target.value)}} name='message' className={styles.inputField1} />
         </formGroup>
 
         < input type='submit' onClick={(e)=>{handleSubmit(e)}} />
