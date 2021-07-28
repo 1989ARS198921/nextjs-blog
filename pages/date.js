@@ -36,7 +36,7 @@ import Close from '@material-ui/icons/Close';
 import CalendarToday from '@material-ui/icons/CalendarToday';
 import Create from '@material-ui/icons/Create';
 
-import { appointments } from '../components/appointments';
+import { appointments } from './api/appointments';
 
 
 
