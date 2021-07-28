@@ -10,6 +10,8 @@ import {
   CardTitle,
   CardBody,
 } from 'reactstrap'
+
+
  <Head>
         <title>{siteTitle}</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
@@ -19,17 +21,22 @@ import {
         <meta name="description" content="Классический и аппаратный маникюр в городе Рязань недорого." />
         <meta charset="utf-8"/>
       </Head>
+
+
   
-export default function Home( ) {
+ export default function Home( ) {
+
+  
   return (
     <Layout home>
 
 
       <Container>
       <Container>
+      <Container>
        <Row>
             <Col sm="6">
-              <Card className="my-3">
+              <Card className="my-2">
                 <CardBody>
                   <CardTitle tag="h4" class="text-secondary">Про меня </CardTitle>
                   <CardText class="text-secondary">
@@ -38,12 +45,16 @@ export default function Home( ) {
                   <Button color="danger" href="/fotos">
                     Мои работы
                   </Button>
+                  
+                  
                 </CardBody>
+                
               </Card>
             </Col>
 
+           
             <Col sm="6">
-              <Card className="my-3">
+              <Card className="my-2">
                 <CardBody>
                   <CardTitle tag="h5" class="text-secondary">Обратная связь</CardTitle>
                   <CardText class="text-secondary">
@@ -56,14 +67,28 @@ export default function Home( ) {
                 </CardBody>
               </Card>
             </Col>
-          </Row>
+
+            <Col sm="12">
+              <Card className="my-3">
+                 <CardBody>
+                 <CardTitle tag="h5" class="text-secondary"></CardTitle>
+                  <CardText class="text-secondary">
+                  Посмотреть мой текущий график на ближайшее время.
+                  </CardText>
+                  <Button color="primary" href="/date">
+                     График работы 
+                  </Button>
+                  </CardBody>
+                  </Card>
+              </Col>
+           </Row>      
         </Container>    
+        </Container>
       </Container>
     </Layout>
   )
 
 
+  }
 
 
-
-}
