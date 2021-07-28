@@ -9,8 +9,8 @@ import {
 } from 'reactstrap'
 
 
-let name = '#Мастер'
-let name2= '#Рязань Маникюр'
+let name = 'Танго'
+let name2= 'Салон Красоты'
 export const siteTitle = 'Маникюр_Рязань62'
 
 export default function Layout({ children, home }) {
